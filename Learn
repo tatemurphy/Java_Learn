@@ -1,5 +1,21 @@
-class A{
-public static void main(String args[]){
-System.out.println("First Java Program");
+class Account{
+int a;
+int b;
+
+public void setData(int a , int b){
+obj. a = a;
+obj. b = b;
 }
+
+public void  showData(){
+System.out.println("Value of A ="+ a);
+System.out.println("Value of B ="+ b);
+}
+
+public static void main(String [args]){
+Account obj = new Account();
+obj.setData(2,3);
+obj.showData();
+}
+
 }
